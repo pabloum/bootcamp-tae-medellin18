@@ -8,6 +8,7 @@
     <modules>
         <module>framework</module>
         <module>facebook-ui-tests</module>
+        <module>cheaptickets-ui-tests</module>
     </modules>
 
     <groupId>com.glb.bootcamp</groupId>
