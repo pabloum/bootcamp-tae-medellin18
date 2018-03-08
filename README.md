@@ -1,4 +1,4 @@
-# bootcamp-tae-medellin18
+# BootCamp TAE Medellin 2018
 
 **Day 1**
 
@@ -23,4 +23,8 @@
 1. WebDriverManager - https://github.com/bonigarcia/webdrivermanager
 2. Page Objects - https://github.com/SeleniumHQ/selenium/wiki/PageObjects
 3. Page Factory - https://github.com/SeleniumHQ/selenium/wiki/PageFactory
+
+**Day 4**
+
+1. Implicit & Explicit Waits - https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp
 
