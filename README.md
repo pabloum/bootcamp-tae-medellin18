@@ -17,3 +17,10 @@
 5. Assertions, SoftAssertions & Fluent Assertions: https://github.com/junit-team/junit4/wiki/matchers-and-assertthat / http://joel-costigliola.github.io/assertj/
 6. Selenium WebDriver: https://www.seleniumhq.org/docs/ / https://github.com/SeleniumHQ/selenium/wiki
 7. Capabilites: https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
+
+**Day 3**
+
+1. WebDriverManager - https://github.com/bonigarcia/webdrivermanager
+2. Page Objects - https://github.com/SeleniumHQ/selenium/wiki/PageObjects
+3. Page Factory - https://github.com/SeleniumHQ/selenium/wiki/PageFactory
+
