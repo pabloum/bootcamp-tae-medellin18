@@ -28,7 +28,7 @@
 
 1. Implicit & Explicit Waits - https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp
 
-** Day 6**
+**Day 6**
 
 1. HTTP - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 2. HTTP Status Code - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
