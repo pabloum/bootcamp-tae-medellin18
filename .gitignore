@@ -20,3 +20,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*.iml
+cheaptickets-ui-tests/*.iml
+facebook-ui-tests/*.iml
+framework/*.iml
+service-api-tests/*.iml
+
+*.idea
+cheaptickets-ui-tests/*.idea
+facebook-ui-tests/*.idea
+framework/*.idea
+service-api-tests/*.idea
+
+target/*
+cheaptickets-ui-tests/target/*
+facebook-ui-tests/target/*
+framework/target/*
+service-api-tests/target/*

@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 
 import static com.glb.bootcamp.browser.Browsers.CHROME;
@@ -29,7 +30,7 @@ public class BaseTestSuite {
     }
 
     @BeforeMethod
-    public void testSetUp() {
+    public void testSetUp(Method method) {
         try {
             // TODO Get browser name for an external source or system variables
             populateDriver(CHROME);

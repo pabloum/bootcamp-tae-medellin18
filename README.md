@@ -28,3 +28,12 @@
 
 1. Implicit & Explicit Waits - https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp
 
+** Day 6**
+
+1. HTTP - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+2. HTTP Status Code - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+3. REST Service Implementation - https://en.wikipedia.org/wiki/Representational_state_transfer
+4. Retrofit - http://square.github.io/retrofit/
+5. RestEasy Client - https://docs.jboss.org/resteasy/docs/3.0-beta-3/userguide/html/RESTEasy_Client_Framework.html
+6. RestTemplate (Spring) - https://spring.io/guides/gs/consuming-rest/
+7. Restassured - https://github.com/rest-assured/rest-assured/wiki/Usage

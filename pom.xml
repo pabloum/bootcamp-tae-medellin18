@@ -9,6 +9,7 @@
         <module>framework</module>
         <module>facebook-ui-tests</module>
         <module>cheaptickets-ui-tests</module>
+        <module>service-api-tests</module>
     </modules>
 
     <groupId>com.glb.bootcamp</groupId>
