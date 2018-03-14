@@ -37,3 +37,10 @@
 5. RestEasy Client - https://docs.jboss.org/resteasy/docs/3.0-beta-3/userguide/html/RESTEasy_Client_Framework.html
 6. RestTemplate (Spring) - https://spring.io/guides/gs/consuming-rest/
 7. Restassured - https://github.com/rest-assured/rest-assured/wiki/Usage
+
+**Day 7**
+
+1. TDD - https://en.wikipedia.org/wiki/Test-driven_development
+2. BDD - https://en.wikipedia.org/wiki/Behavior-driven_development
+3. Gherkin Language - https://cucumber.io/docs/reference#gherkin
+4. Cucumber-JVM - https://cucumber.io/docs/reference/jvm#configuration
