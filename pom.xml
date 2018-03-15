@@ -11,6 +11,7 @@
         <module>cheaptickets-ui-tests</module>
         <module>service-api-tests</module>
         <module>bdd-ui-tests</module>
+        <module>mobile-tests</module>
     </modules>
 
     <groupId>com.glb.bootcamp</groupId>

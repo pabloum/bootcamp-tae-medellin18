@@ -23,7 +23,7 @@ public class LoginFBPage extends PageObjectBase {
     }
 
     /**
-     * This method allow to do a login against Facebook app.
+     * This method allow to do a login against Facebook browser.
      *
      * @param username the username
      * @param password the password

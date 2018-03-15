@@ -4,6 +4,8 @@ import com.glb.bootcamp.pageobject.PageObjectBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import static com.glb.bootcamp.properties.TestProperties.TEST_PROPERTIES;
+
 /**
  * LoginFBPage.
  */
@@ -20,11 +22,11 @@ public class LoginFBPage extends PageObjectBase {
 
     public LoginFBPage() {
         super();
-        goTo("http://www.facebook.com");
+        goTo(TEST_PROPERTIES.getBaseUrl());
     }
 
     /**
-     * This method allow to do a login against Facebook app.
+     * This method allow to do a login against Facebook browser.
      *
      * @param username the username
      * @param password the password

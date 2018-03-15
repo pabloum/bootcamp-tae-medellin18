@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import static com.glb.bootcamp.browser.Browsers.CHROME;
 import static com.glb.bootcamp.driver.Drivers.disposeDriver;
 import static com.glb.bootcamp.driver.Drivers.populateDriver;
+import static com.glb.bootcamp.platform.Platform.WEB;
 import static com.glb.bootcamp.server.SeleniumStandaloneServer.SERVER;
 
 /**
@@ -18,7 +19,7 @@ public class Hooks {
     @Before
     public void setUp() throws MalformedURLException {
         SERVER.start();
-        populateDriver(CHROME);
+        populateDriver(WEB, CHROME);
     }
 
     @After

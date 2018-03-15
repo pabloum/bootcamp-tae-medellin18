@@ -9,8 +9,7 @@ import static org.testng.Assert.assertTrue;
 
 public class LoginFBTest extends BaseTestSuite {
 
-    private static final String USERNAME = "";
-    private static final String PASSWORD = "";
+    private static final String USERNAME = "mogadamian@hotmail.com";
 
     @Test
     public void testSuccessfulLogin() {

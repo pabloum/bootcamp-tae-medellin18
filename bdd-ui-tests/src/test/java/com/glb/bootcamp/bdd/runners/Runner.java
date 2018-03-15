@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber"},
-        features = {"src/test/resources"},
+        features = {"src/test/resources/features"},
         glue = "com.glb.bootcamp.bdd.steps"
 )
 public class Runner {

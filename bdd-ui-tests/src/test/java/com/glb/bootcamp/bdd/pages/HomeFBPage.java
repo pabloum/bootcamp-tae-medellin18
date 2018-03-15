@@ -1,8 +1,11 @@
 package com.glb.bootcamp.bdd.pages;
 
 import com.glb.bootcamp.pageobject.PageObjectBase;
+import com.glb.bootcamp.waits.Waits;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import static com.glb.bootcamp.waits.Waits.isVisible;
 
 /**
  * HomeFBPage.
@@ -13,6 +16,6 @@ public class HomeFBPage extends PageObjectBase {
     private WebElement profileNameSpan;
 
     public boolean hasProfileName() {
-        return profileNameSpan.isDisplayed() && profileNameSpan.isEnabled();
+        return isVisible(profileNameSpan).isEnabled();
     }
 }

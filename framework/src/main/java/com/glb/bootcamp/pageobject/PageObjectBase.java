@@ -1,5 +1,7 @@
 package com.glb.bootcamp.pageobject;
 
+import com.glb.bootcamp.driver.Driver;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -17,50 +19,62 @@ public class PageObjectBase {
      * Default constructor for creating an instance of a PO class, using PageFactory.
      */
     public PageObjectBase() {
-        initElements(getDriver().getWebDriver(), this);
+        Driver driver = getDriver();
+        switch (driver.getPlatform()) {
+            case WEB:
+                initElements(driver.getWebDriver(), this);
+                break;
+            case MOBILE:
+                initElements(new AppiumFieldDecorator(driver.getWebDriver()), this);
+                break;
+        }
     }
 
     /**
-     * @param url
+     * Navigates to the URL.
+     *
+     * @param url the URL
      */
     public void goTo(String url) {
         getDriver().getWebDriver().get(url);
     }
 
     /**
-     *
+     * Refresh the page.
      */
     public void refresh() {
         getDriver().getWebDriver().navigate().refresh();
     }
 
     /**
-     * @param webElement
+     * Clicks on the element.
+     *
+     * @param webElement the {@link WebElement}
      */
     public void clickOn(WebElement webElement) {
         isClickable(webElement).click();
     }
 
     /**
-     * @param webElement
-     * @param text
+     * Types on the element.
+     *
+     * @param webElement the {@link WebElement}
+     * @param text       the text
      */
     public void typeOn(WebElement webElement, String text) {
         isVisible(webElement).sendKeys(text);
     }
 
     /**
-     * @param webElement
-     * @param text
+     * Selects an option by text from an HTML Select.
+     *
+     * @param webElement the {@link WebElement}
+     * @param text       the text to select
      */
     public void selectByText(WebElement webElement, String text) {
         getSelect(isVisible(isClickable(webElement))).selectByVisibleText(text);
     }
 
-    /**
-     * @param webElement
-     * @return
-     */
     private Select getSelect(WebElement webElement) {
         return new Select(webElement);
     }

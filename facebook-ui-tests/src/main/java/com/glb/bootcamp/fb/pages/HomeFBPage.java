@@ -4,6 +4,8 @@ import com.glb.bootcamp.pageobject.PageObjectBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import static com.glb.bootcamp.waits.Waits.isVisible;
+
 /**
  * HomeFBPage.
  */
@@ -12,12 +14,8 @@ public class HomeFBPage extends PageObjectBase {
     @FindBy(css = "a._2s25._606w")
     private WebElement profileNameSpan;
 
-    public Object clickOnProfileName() {
-        clickOn(profileNameSpan);
-        return new Object(); // A new PO should be returned - ProfilePage (?)
+    public boolean hasProfileName() {
+        return isVisible(profileNameSpan).isEnabled();
     }
 
-    public boolean hasProfileName() {
-        return profileNameSpan.isDisplayed() && profileNameSpan.isEnabled();
-    }
 }
