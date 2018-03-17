@@ -1,5 +1,6 @@
 Feature: Android Calculator
 
+@tags calculator
 Scenario: Add two number in the Android Calculator
 
 Given I open the Android Calculator

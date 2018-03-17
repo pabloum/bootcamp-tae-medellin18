@@ -8,7 +8,7 @@ import static com.glb.bootcamp.driver.Drivers.getDriver;
 import static org.openqa.selenium.By.xpath;
 
 /**
- * CalculatorPage.
+ * CalculatorPage - Implemented in class by trainees.
  */
 public class CalculatorPage extends PageObjectBase {
 
@@ -20,7 +20,6 @@ public class CalculatorPage extends PageObjectBase {
 
     @AndroidFindBy(id = "formula")
     private WebElement formulaEditText;
-
 
     /**
      * This method execute the add for two numbers.

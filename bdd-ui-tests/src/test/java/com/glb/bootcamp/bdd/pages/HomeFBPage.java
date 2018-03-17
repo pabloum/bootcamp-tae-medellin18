@@ -1,7 +1,6 @@
 package com.glb.bootcamp.bdd.pages;
 
 import com.glb.bootcamp.pageobject.PageObjectBase;
-import com.glb.bootcamp.waits.Waits;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 

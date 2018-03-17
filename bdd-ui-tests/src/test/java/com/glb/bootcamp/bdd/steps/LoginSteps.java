@@ -11,7 +11,7 @@ import static org.testng.Assert.assertTrue;
 /**
  * LoginSteps..
  */
-public class LoginSteps extends PageObjectBase{
+public class LoginSteps extends PageObjectBase {
 
     private HomeFBPage homeFBPage;
 

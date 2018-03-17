@@ -1,4 +1,4 @@
-package com.glb.bootcamp.calculator.steps.hooks;
+package com.glb.bootcamp.steps.hooks;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

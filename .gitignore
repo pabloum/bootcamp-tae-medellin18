@@ -27,6 +27,7 @@ facebook-ui-tests/*.iml
 framework/*.iml
 service-api-tests/*.iml
 bdd-ui-tests/*.iml
+mobile-tests/*.iml
 
 *.idea
 cheaptickets-ui-tests/*.idea
@@ -34,6 +35,7 @@ facebook-ui-tests/*.idea
 framework/*.idea
 service-api-tests/*.idea
 bdd-ui-tests/*.idea
+mobile-tests/*.idea
 
 target/*
 cheaptickets-ui-tests/target/*
@@ -41,3 +43,4 @@ facebook-ui-tests/target/*
 framework/target/*
 service-api-tests/target/*
 bdd-ui-tests/target/*
+mobile-tests/target/*

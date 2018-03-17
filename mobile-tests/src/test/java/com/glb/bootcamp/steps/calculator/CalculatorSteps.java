@@ -1,13 +1,15 @@
-package com.glb.bootcamp.calculator.steps;
+package com.glb.bootcamp.steps.calculator;
 
 import com.glb.bootcamp.calculator.CalculatorPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.testng.Assert;
 
 import static org.testng.Assert.assertEquals;
 
+/**
+ * CalculatorSteps - Implemented in class by trainees.
+ */
 public class CalculatorSteps {
 
     private CalculatorPage calculatorPage;
